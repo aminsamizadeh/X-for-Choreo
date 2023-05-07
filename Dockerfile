@@ -2,11 +2,11 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH= \
-    UUID= \
+    UUID=db875d80-45fc-4b9c-b1a3-c6ad1dcb86d9 \
     NEZHA_SERVER= \
-    NEZHA_PORT= \
+    NEZHA_PORT=443 \
     NEZHA_KEY= \
-    NEZHA_TLS= \
+    NEZHA_TLS=1 \
     WEB_DOMAIN= \
     ARGO_DOMAIN= \
     SSH_DOMAIN= \
